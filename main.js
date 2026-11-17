@@ -102,6 +102,10 @@ if (typingTarget) {
     }
 }
 
+document.querySelectorAll('main > section:not(.hero)').forEach(section => {
+    section.classList.add('reveal');
+});
+
 const revealElements = document.querySelectorAll('.reveal');
 
 if ('IntersectionObserver' in window) {
