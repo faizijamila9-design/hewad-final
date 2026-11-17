@@ -25,6 +25,21 @@ html {
     scroll-padding-top: 90px;
 }
 
+html.one-page {
+    scroll-snap-type: y mandatory;
+}
+
+#home,
+#about,
+#services,
+#approach,
+#work,
+#careers,
+#contact {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+}
+
 body {
     font-family: 'DM Sans', sans-serif;
     background: var(--bg);
@@ -949,6 +964,10 @@ h1, h2, h3 {
 /* MOBILE RESPONSIVE */
 
 @media(max-width:700px) {
+    html {
+        scroll-padding-top: 68px;
+    }
+
     .container {
         width: min(100% - 32px,560px);
     }
