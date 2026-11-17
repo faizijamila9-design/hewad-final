@@ -109,15 +109,17 @@ button, input, textarea, select {
 }
 
 .brand-mark {
-    width: 34px;
-    height: 34px;
-    border: 2px solid var(--pink);
-    border-radius: 10px;
-    display: grid;
-    place-items: center;
-    color: var(--pink);
-    font-weight: 700;
-    transform: skew(-10deg);
+    display: block;
+    width: 40px;
+    height: 40px;
+    flex: 0 0 auto;
+    filter: drop-shadow(0 0 10px rgba(237,139,229,.2));
+    transition: filter .25s,transform .25s;
+}
+
+.brand:hover .brand-mark {
+    filter: drop-shadow(0 0 14px rgba(237,139,229,.5));
+    transform: translateY(-2px);
 }
 
 .brand span:last-child {

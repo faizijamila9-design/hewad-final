@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="hewad-gradient" x1="7" y1="8" x2="41" y2="41" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F5A0EB"/>
+      <stop offset="1" stop-color="#A77BFF"/>
+    </linearGradient>
+  </defs>
+  <path d="M15 4.75h18A10.25 10.25 0 0 1 43.25 15v18A10.25 10.25 0 0 1 33 43.25H15A10.25 10.25 0 0 1 4.75 33V15A10.25 10.25 0 0 1 15 4.75Z" stroke="url(#hewad-gradient)" stroke-width="2.5"/>
+  <path d="M15 14v20m18-20v20M15 24h18" stroke="url(#hewad-gradient)" stroke-width="4" stroke-linecap="round"/>
+  <circle cx="33" cy="14" r="2.5" fill="#F5A0EB"/>
+</svg>
